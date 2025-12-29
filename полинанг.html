@@ -214,7 +214,7 @@
   for (let i = 1; i <= 20; i++) {
     const btn = document.createElement("button");
     btn.className = "gift-btn";
-    btn.textContent = "Dhurata" + i;
+    btn.textContent = `PODAROK ${i}`;
     btn.dataset.num = i;
 
     if (openedGiftNumber && Number(openedGiftNumber) !== i) {
