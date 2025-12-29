@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="sq">
 <head>
   <meta charset="UTF-8" />
@@ -20,7 +19,6 @@
     box-shadow: 0 0 30px rgba(255, 182, 193, 0.3);
     position: relative;
   }
-  /* гирлянда в пастельных тонах */
   .container::before {
     content: "";
     position: absolute;
@@ -216,7 +214,7 @@
   for (let i = 1; i <= 20; i++) {
     const btn = document.createElement("button");
     btn.className = "gift-btn";
-    btn.textContent = `PODAROK ${i}`;
+    btn.textContent = "Dhurata" + i;
     btn.dataset.num = i;
 
     if (openedGiftNumber && Number(openedGiftNumber) !== i) {
