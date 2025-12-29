@@ -1,5 +1,7 @@
  ---
+ layout: none
  ---
+<!DOCTYPE html>
 <html lang="sq">
 <head>
   <meta charset="UTF-8" />
